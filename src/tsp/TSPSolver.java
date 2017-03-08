@@ -71,6 +71,9 @@ public class TSPSolver {
 	{
 		// Initial solution : put city i at position i
 		//TODO
+		for(int i = 0; i < m_instance.getNbCities(); i++){
+			m_solution.setCityPosition(i, i);
+		}
 	}
 
 	// -----------------------------
